@@ -1,0 +1,445 @@
+.about {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 80px 0;
+  h1 {
+    font-size: 56px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    color: #ffb400;
+  }
+  .title-bg {
+    font-size: 110px;
+    left: 0;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 800;
+    transform: translateY(-50%);
+    color: hsla(0, 0%, 100%, 0.07);
+  }
+}
+.bg-white{
+  background-color: white;
+}
+.bg-dark{
+  background-color: black;
+}
+
+.container {
+  padding-bottom: 20px;
+  max-width: 1200px;
+  .row {
+    .col-lg-5 {
+      h3 {
+        font-family: sans-serif;
+        padding-bottom: 22px;
+        font-size: 26px;
+      }
+      .about-list {
+        display: flex;
+        flex-wrap: wrap;
+        font-family: sans-serif;
+        list-style: none;
+        li {
+          padding-bottom: 20px;
+          flex: 0 0 50%;
+          max-width: 50%;
+          .title {
+            opacity: 0.8;
+            text-transform: capitalize;
+          }
+          .d-lg-block {
+            font-weight: 600;
+          }
+        }
+      }
+      .button {
+        overflow: hidden;
+        display: inline-block;
+        line-height: 1.4;
+        border-radius: 35px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer !important;
+        user-select: none;
+        transition: all 0.25s ease-in-out;
+        text-transform: uppercase;
+        text-decoration: none !important;
+        position: relative;
+        z-index: 1;
+        padding: 16px 70px 16px 35px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        background-color: rgba(46, 57, 69, 0.3);
+        outline: none !important;
+        border: 1px solid #ffb400;
+        &::before {
+          content: "";
+          background-color: #ffb400;
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          transform: translateX(100%);
+          transition: all 0.3s ease-out;
+        }
+
+        .home-psinfo-icon {
+          position: absolute;
+          right: -1px;
+          top: -1px;
+          bottom: 0;
+          width: 55px;
+          height: 55px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 19px;
+          color: #fff;
+          border-radius: 50%;
+          background-color: #ffb400;
+          padding: 15px;
+        }
+      }
+      .button:hover::before {
+        transform: translateX(0);
+      }
+    }
+    .col-lg-7 {
+      .col-6 {
+        width: 50%;
+        .with-margin {
+          margin-bottom: 30px;
+          border: 1px solid #252525;
+          border-radius: 5px;
+          padding: 20px 30px 25px 40px;
+          h3 {
+            display: inline-block;
+            margin: 0;
+            font-size: 50px;
+            font-weight: 700;
+            color: #ffb400;
+            .about-records-icon {
+              position: absolute;
+              right: -30px;
+              font-size: 33px;
+              font-weight: 300;
+              top: 7px;
+            }
+          }
+          p {
+            padding-left: 45px;
+            text-transform: uppercase;
+            i {
+              position: absolute;
+              left: 0;
+              top: 13px;
+              width: 30px;
+              height: 1px;
+              background-color: #777;
+              &::before {
+                content: "";
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#myskills {
+  .row {
+    .col-12 {
+      h1 {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        padding: 80px 0;
+        text-transform: uppercase;
+        font-size: 26px;
+      }
+    }
+    .skills {
+      margin: 0 auto;
+      border-radius: 16px;
+      padding: 25px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .skills-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .left {
+          margin-right: 1rem;
+        }
+        .right {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.skills-bar {
+  padding: 25px 30px;
+  width: 100%;
+}
+
+.skills-bar .bar {
+  margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skills-bar .bar .info {
+  margin-bottom: 8px;
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 550px;
+  background: #cacaca;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation-delay: 2s;
+}
+
+.bar .progress-line span {
+  position: absolute;
+  background: darkorange;
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  text-transform: uppercase;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation-delay: 2s;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line .html {
+  width: 80%;
+}
+.progress-line .css {
+  width: 70%;
+}
+.progress-line .bootstrap {
+  width: 82%;
+}
+.progress-line .javascript {
+  width: 62%;
+}
+.progress-line .c {
+  width: 90%;
+}
+.progress-line .sql {
+  width: 75%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -14px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-style: #f0f0f0;
+  border-top-color: #07374a;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #f0f0f0;
+  font-size: 12px;
+  font-weight: 700;
+  background: #07374a;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.progress-line .html::after {
+  content: "80%";
+}
+.progress-line .css::after {
+  content: "70%";
+}
+.progress-line .bootstrap::after {
+  content: "82%";
+}
+.progress-line .javascript::after {
+  content: "62%";
+}
+.progress-line .c::after {
+  content: "90%";
+}
+.progress-line .sql::after {
+  content: "75%";
+}
+
+.education {
+  .container {
+    margin-top: 150px;
+    .row {
+      .col-12 {
+        h3 {
+          font-size: 26px;
+        }
+      }
+      .col-lg-6 {
+        .resume-box {
+          ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+              position: relative;
+              padding: 0 20px 0 60px;
+              margin: 0 0 50px;
+              &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 20px;
+                bottom: 0;
+                border-left: 1px solid #333;
+              }
+              .icon {
+                .education-about-icon {
+                  width: 45px;
+                  height: 45px;
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  line-height: 40px;
+                  text-align: center;
+                  z-index: 1;
+                  border-radius: 50%;
+                  color: #fff;
+                  background-color: #ffb400;
+                  padding: 8px;
+                }
+              }
+              .time {
+                color: #fff;
+                font-size: 12px;
+                padding: 1px 10px;
+                display: inline-block;
+                margin-bottom: 12px;
+                border-radius: 20px;
+                font-weight: 600;
+                background-color: #252525;
+                opacity: 0.8;
+              }
+              h5 {
+                font-size: 18px;
+                margin: 7px 0 10px;
+                font-family: Poppins, sans-serif;
+                text-transform: uppercase !important;
+                width: max-content;
+                .place {
+                  opacity: 0.8;
+                  font-weight: 600;
+                  font-size: 15px;
+                  position: relative;
+                  padding-left: 26px;
+                  &::before {
+                    position: absolute;
+                    content: "";
+                    width: 10px;
+                    height: 2px;
+                    background-color: #fff;
+                    left: 7px;
+                    right: 9px;
+                    opacity: 0.8;
+                    top: 8px;
+                  }
+                }
+              }
+              p {
+                margin: 0;
+                color: #fff;
+                font-size: 14px;
+                color: #666;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding-bottom: 20px;
+    max-width: 1200px;
+    .row {
+      .col-lg-7 {
+        margin-top: 3rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #myabout {
+    .container {
+      .row {
+        .col-xl-6 {
+          .row {
+            .col-12 {
+              .main-img-mobile {
+                width: 230px;
+                height: 230px;
+                border-radius: 50%;
+                border: 4px solid #252525;
+                margin: 0 auto 25px;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #myskills {
+    .row {
+      .skills {
+        .skills-bar {
+          display: block;
+        }
+      }
+    }
+  }
+}
