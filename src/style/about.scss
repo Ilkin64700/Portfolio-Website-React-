@@ -443,3 +443,17 @@
     }
   }
 }
+
+@media screen and (max-width:1200px) {
+  #myskills{
+    .row{
+      .skills{
+        .skills-bar{
+          .right{
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}
