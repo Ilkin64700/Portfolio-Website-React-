@@ -59,7 +59,7 @@ const Aboutpage = () => {
       <section id="myskills">
         <div className="row">
           <div className="col-12">
-            <h1>My Skills</h1>
+            <h3>My Skills</h3>
           </div>
           <div className="skills">
             <div className="skills-bar">
