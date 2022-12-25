@@ -79,11 +79,10 @@
               padding: 7px;
             }
           }
-          &:hover .contact-info-icons{
+          &:hover .contact-info-icons {
             background-color: #ffb400;
           }
         }
-        
       }
     }
     .col-lg-8 {
@@ -232,6 +231,20 @@
         .col-lg-8 {
           margin-left: -30px;
           padding-left: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .container {
+    .row {
+      .col-12 {
+        .position-relative {
+          .contact-sidebar-icons {
+            color:#111
+          }
         }
       }
     }

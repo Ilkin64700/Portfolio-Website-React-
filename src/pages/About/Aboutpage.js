@@ -36,8 +36,8 @@ const Aboutpage = () => {
                 <div className="col-12 mt-1">
                   <a
                     className="button"
-                    href="cv/İlkin_Zamanli_CV.pdf"
-                    download="cv/İlkin_Zamanli_CV.pdf"
+                    href="cv/İlkin_Zamanli_CV_Edited.pdf"
+                    download="cv/İlkin_Zamanli_CV_Edited.pdf"
                     target="_blank"
                   >
                     <span className="button-text"> CV Yüklə </span>

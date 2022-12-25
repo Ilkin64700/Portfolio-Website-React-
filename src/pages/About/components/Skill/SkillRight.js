@@ -17,7 +17,7 @@ const SkillRight = () => {
                 whileInView={{
                   width: ["0%", `${item.percentage}%`],
                 }}
-                className="html"
+                className={`${item.skillclass}`}
               ></motion.span>
             </div>
           </div>

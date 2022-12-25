@@ -203,4 +203,9 @@
     margin-left: -30px;
     padding-left: 25px;
   }
+}
+@media screen and (max-width: 2000px) {
+  .container .row .col-12 .position-relative .contact-sidebar-icons {
+    color: #111;
+  }
 }/*# sourceMappingURL=contact.css.map */

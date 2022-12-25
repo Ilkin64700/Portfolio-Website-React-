@@ -23,14 +23,17 @@ export const skillContentLeft = [
   {
     name: "HTML",
     percentage: 80,
+    skillclass:"html"
   },
   {
     name: "CSS-SCSS",
     percentage: 70,
+    skillclass:"css"
   },
   {
     name: "JAVASCRIPT",
     percentage: 82,
+    skillclass:"bootstrap"
   },
 ];
 
@@ -38,14 +41,17 @@ export const skillContentRight = [
   {
     name: "C#",
     percentage: 62,
+    skillclass:"javascript"
   },
   {
     name: "MVC(ASP .NET CORE)",
     percentage: 90,
+    skillclass:"c"
   },
   {
     name: "SQL",
     percentage: 75,
+    skillclass:"sql"
   },
 ];
 
