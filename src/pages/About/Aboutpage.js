@@ -39,6 +39,7 @@ const Aboutpage = () => {
                     href="cv/İlkin_Zamanli_CV_Edited.pdf"
                     download="cv/İlkin_Zamanli_CV_Edited.pdf"
                     target="_blank"
+                    
                   >
                     <span className="button-text"> CV Yüklə </span>
                     <FaDownload className="home-psinfo-icon" />
