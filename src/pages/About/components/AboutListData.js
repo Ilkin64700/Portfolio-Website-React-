@@ -1,16 +1,16 @@
 export const myList = [
-  { title: "Ad", value: "Ilkin" },
-  { title: "Soyad", value: "Zamanli" },
+  { title: "First Name", value: "Ilkin" },
+  { title: "Last Name", value: "Zamanli" },
   {
-    title: "yas",
+    title: "Age",
     value: "25",
   },
   {
-    title: "unvan",
+    title: "Address",
     value: "Bakı, Nərimanov",
   },
   {
-    title: "nomre",
+    title: "Phone",
     value: "+994554730212",
   },
   {
@@ -56,10 +56,10 @@ export const skillContentRight = [
 ];
 
 export const statistic = [
-  { number: 12, ptagVal: "ILLIK", spanTagVal: "TƏCRÜBƏ" },
-  { number: 97, ptagVal: "TAMAMLANMIŞ", spanTagVal: "PROYEKTLƏR" },
-  { number: 81, ptagVal: "MƏMNUN", spanTagVal: "MÜŞTƏRILƏR" },
-  { number: 53, ptagVal: "QAZANILAN", spanTagVal: "MÜKAFATLAR" },
+  { number: 12, ptagVal: "YEARS OF", spanTagVal: "EXPERIENCE" },
+  { number: 97, ptagVal: "COMPLETED", spanTagVal: "PROJECTS" },
+  { number: 81, ptagVal: "HAPPY", spanTagVal: "CUSTOMERS" },
+  { number: 53, ptagVal: "AWARDS", spanTagVal: "WON" },
 ];
 
 export const resumecontentleft = [

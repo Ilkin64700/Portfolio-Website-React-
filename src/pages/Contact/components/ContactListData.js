@@ -19,7 +19,7 @@ export const stats=[{
     },
     {
       icon: <AiOutlineLinkedin className="contact-info-icons" />,
-      link: "https://www.linkedin.com/"
+      link: "https://www.linkedin.com/in/ilkin-zamanli-21089625b/"
     },
     {
       icon: <AiOutlineGithub className="contact-info-icons" />,

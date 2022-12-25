@@ -9,19 +9,19 @@ const Header = () => {
         <li>
           <a href="#designer">
             <BsHouseDoorFill className="header-home-icon" />
-            <h2 className="home">Ana Səhifə</h2>
+            <h2 className="home">Home</h2>
           </a>
         </li>
         <li>
           <a href="#myabout">
             <AiOutlineUser className="header-home-icon" />
-            <h2>Haqqımda</h2>
+            <h2>About</h2>
           </a>
         </li>
         <li>
           <a href="#contact">
             <BsEnvelopeOpen className="header-home-icon" />
-            <h2>Əlaqə</h2>
+            <h2>Contact</h2>
           </a>
         </li>
       </ul>

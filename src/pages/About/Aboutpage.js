@@ -12,7 +12,7 @@ const Aboutpage = () => {
     <div>
       <section id="myabout">
         <div className="about">
-          <h1>Haqqımda</h1>
+          <h1>About Me</h1>
         </div>
       </section>
       <section>
@@ -21,7 +21,7 @@ const Aboutpage = () => {
             <div className="col-xl-6 col-lg-5 col-12">
               <div className="row">
                 <div className="col-12">
-                  <h3>ŞƏXSİ MƏLUMATLAR</h3>
+                  <h3>Personal Infos</h3>
                 </div>
                 <div className="col-12 d-block d-sm-none">
                   <img
@@ -41,7 +41,7 @@ const Aboutpage = () => {
                     target="_blank"
                     
                   >
-                    <span className="button-text"> CV Yüklə </span>
+                    <span className="button-text"> Download CV </span>
                     <FaDownload className="home-psinfo-icon" />
                   </a>
                 </div>
@@ -59,7 +59,7 @@ const Aboutpage = () => {
       <section id="myskills">
         <div className="row">
           <div className="col-12">
-            <h1>Mənim Biliklərim</h1>
+            <h1>My Skills</h1>
           </div>
           <div className="skills">
             <div className="skills-bar">
@@ -80,9 +80,9 @@ const Aboutpage = () => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
-                  Təcrübə
+                EXPERIENCE
                   <span>&amp;</span>
-                  Təhsil
+                  EDUCATION
                 </h3>
               </div>
               <div className="col-lg-6 m-15px-tb">

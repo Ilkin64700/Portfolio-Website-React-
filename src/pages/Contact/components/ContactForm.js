@@ -14,7 +14,7 @@ const ContactForm = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <input type="text" name="name" placeholder="Ad" required />
+              <input type="text" name="name" placeholder="YOUR NAME" required />
             </div>
           </div>
           <div className="col-12 col-md-6">
@@ -22,28 +22,28 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="user_email"
-                placeholder="Email Ünvanı"
+                placeholder="YOUR EMAIL"
                 required
               />
             </div>
           </div>
           <div className="col-12 col-md-12">
             <div className="form-group">
-              <input type="text" name="subject" placeholder="Mövzu" required />
+              <input type="text" name="subject" placeholder="YOUR SUBJECT" required />
             </div>
           </div>
           <div className="col-12 format">
             <div className="form-group">
               <textarea
                 name="message"
-                placeholder="Sizin Mesajınız"
+                placeholder="YOUR MESSAGE"
                 defaultValue={""}
               />
             </div>
           </div>
           <div className="col-12 navdistance">
             <button type="submit" className="button">
-              <span className="button-text">Mesaj Göndərin</span>
+              <span className="button-text">Send Message</span>
               <FiSend className="contact-form-icon" />
             </button>
           </div>
