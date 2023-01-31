@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './style/nav.scss'
 import './style/about.scss'
 import './style/home.scss'
 import './style/contact.scss'
+import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -26,12 +26,12 @@ const ContactInfo = () => {
           <p className="open-sans-font custom-span-contact position-relative">
             {item.iconsidebar2}
             <span className="d-block">mail me</span>
-            <a href="mailto:elekberovulvi520@gmail.com">{item.email}</a>
+            <a href="mailto:izamanli2019@ada.edu.az">{item.email}</a>
           </p>
           <p className="open-sans-font custom-span-contact position-relative">
             {item.iconsidebar3}
             <span className="d-block">call me</span>
-            <a href="Tel: +994517295859"> {item.phonenumber}</a>
+            <a href="Tel: +994554730212"> {item.phonenumber}</a>
           </p>
           <ContactSites/>
         </motion.div>
